@@ -4,7 +4,7 @@ from .models import Information
 
 class InformationAdmin(admin.ModelAdmin):
 
-    list_display    = [ "id","url","email" ]
+    list_display    = [ "id","url","email","user_id" ]
     #list_editable   = [ "url","email" ]
 
     
